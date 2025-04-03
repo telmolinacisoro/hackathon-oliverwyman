@@ -13,9 +13,8 @@ Given these results, a logical next step would be to enhance the dataset. This c
 As part of the understand phase, I intended to incorporate Explainable AI techniques using SHAP (SHapley Additive Explanations) to gain both global and local interpretability of the predictions. Although this wasn't fully implemented in the final version of the code, the plan was to use SHAP to show which features contributed most to an individual customer’s churn prediction.
 
 ## BI Dashboard & Streamlit App
-In addition, my original vision included a Tableau dashboard to extract actionable insights and support BI. The dashboard would be embedded in a Streamlit application (by posting it to the Tableau Server), which would also feature a simple UI allowing users to input customer attributes, receive a churn probability prediction, and view local explainability results from SHAP. 
-
+In addition, my original vision included a Tableau dashboard to extract actionable insights and support BI. The dashboard would be embedded in a Streamlit application (by posting it to the Tableau Server), which would also feature a simple UI allowing users to input customer attributes, receive a churn probability prediction, and view local explainability results from SHAP. Here you can find a similar approach I used in a project of mine: https://github.com/telmolinacisoro/ecommerce-pricing-product-recommendation
 ## Final Thoughts & Future Directions
-To take things even further, I also considered integrating open-source LLMs via Hugging Face to automatically generate weekly customer reports, helping to understand ongoing trends and changes in customer behavior.
+To take things even further, I also considered integrating open-source LLMs via Hugging Face to automatically generate weekly customer reports—helping to understand ongoing trends and changes in customer behavior. Additionally, I tried out with lovable.dev, which I found to be a rather useful tool, although not fully functional.
 
 Overall, this has been an exciting opportunity to explore new projects and I very much look forward to exploring these ideas further!!
